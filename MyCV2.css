@@ -1,0 +1,41 @@
+/* Reseteo de estilos para todos los elementos */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color:azure;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   /*Estilo de logo principal*/
+   header nav img#Logo-CV{
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+   }
+   /*Estilos cuando se pasa el mause sobre del el icono*/
+   header nav img#Logo-CV:hover{
+    background-color: #e9e9ee;
+    border-radius:  400px;
+   }
+   img#Estudios{
+    width: 300;
+    height: 300px;
+    padding: 4px;
+   }
+   img#Estudios:hover{
+    background-color: #e9e9ee;
+    border-radius:  400px;
+   }
+   img#Experencia {
+    width: 300;
+    height: 300px;
+    padding: 4px;
+   }
+   img#Experencia:hover{
+    background-color: #e9e9ee;
+    border-radius:  400px;
+   }
+   
